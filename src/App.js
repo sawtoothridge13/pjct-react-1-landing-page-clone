@@ -1,21 +1,21 @@
-import './App.css';
+import styles from './App.module.scss';
 
 export default function App() {
   return (
     <>
-      <header>
+      <header className={styles.header}>
         <div>
           <span>Bolton Remote is now a part of SupportNinja!</span>
           <a href="/#">Read about the acquisition.</a>
         </div>
 
         <nav>
-          <img />
+          <img></img>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>asdf</li>
+            <li>adf</li>
+            <li>adf</li>
+            <li>adf</li>
           </ul>
         </nav>
       </header>
