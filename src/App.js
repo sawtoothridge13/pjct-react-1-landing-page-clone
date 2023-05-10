@@ -1,21 +1,24 @@
 import styles from './App.module.scss';
+import { ReactComponent as Logo } from './images/logo-mark.svg';
+import { ReactComponent as NinjaLogo } from './images/supportninja-logo.svg';
 
 export default function App() {
   return (
     <>
       <header className={styles.header}>
-        <div>
+        <div className={styles.alertBar}>
           <span>Bolton Remote is now a part of SupportNinja!</span>
           <a href="/#">Read about the acquisition.</a>
         </div>
 
-        <nav>
-          <img></img>
+        <nav className={styles.navBar}>
+          <Logo />
+          <NinjaLogo />
           <ul>
-            <li>asdf</li>
-            <li>adf</li>
-            <li>adf</li>
-            <li>adf</li>
+            <li>Solutions</li>
+            <li>How it works</li>
+            <li>About</li>
+            <li>Resources</li>
           </ul>
         </nav>
       </header>

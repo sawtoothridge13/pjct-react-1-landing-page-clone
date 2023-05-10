@@ -1,3 +1,54 @@
+.container {
+  max-width: 1920px;
+  margin: auto;
+}
+
 .header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  display: block;
+}
+
+.alertBar {
+  background-color: #0c3a23;
+  color: #f7e1d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alertBar a {
+  color: #f7e1d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    color: #edbc4f;
+    border-bottom: 1px solid;
+  }
+}
+
+.navBar {
+  position: fixed;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   background-color: #fff;
+}
+
+ul {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
