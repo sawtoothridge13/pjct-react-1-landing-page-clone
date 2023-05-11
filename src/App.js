@@ -20,6 +20,7 @@ export default function App() {
             <li>About</li>
             <li>Resources</li>
           </ul>
+          <button>Get Started</button>
         </nav>
       </header>
 
@@ -31,12 +32,12 @@ export default function App() {
             talent.
           </p>
         </section>
-        <section>Section 2</section>
-        <section>Section 3</section>
-        <section>Section 4</section>
-        <section>Section 5</section>
-        <section>Section 6</section>
-        <section>Section 7</section>
+        <section className={styles.sectionTwo}></section>
+        <section>className={styles.sectionThree}</section>
+        <section>className={styles.sectionFour}</section>
+        <section>className={styles.sectionFive}</section>
+        <section>className={styles.sectionSix}</section>
+        <section>className={styles.sectionSeven}</section>
       </main>
       <footer>footer</footer>
     </>
